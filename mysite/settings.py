@@ -25,7 +25,7 @@ SECRET_KEY = '35+^)n()8%1+$a6$df(%i_jeygn)k!7s93%o3eigpon3l((o!6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'SandraV451.pythonanywhere.com']
 
 
 # Application definition
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'PST'
+TIME_ZONE = 'America/Los_Angeles'
 
 USE_I18N = True
 
